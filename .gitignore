@@ -38,7 +38,7 @@ logs
 
 # Ignore build output and bundled files for React
 /build/
-/dist/
+*/dist/
 /public/bundle.js
 
 # Ignore user-specific files
