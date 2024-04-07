@@ -26,7 +26,7 @@ export const Home = () => {
       <h2>
         Here is your picture for{" "}
         <span style={{ color: "cornflowerblue" }}>
-          {dayjs().format("dddd d MMMM YYYY")}
+          {dayjs().format("dddd D MMMM YYYY")}
         </span>
       </h2>
       <img src={pictureUrl} style={{ width: "50%" }} />
